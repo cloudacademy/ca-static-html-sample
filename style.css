@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    background-color: #1d539d;
+    color: white;
+    padding-top: 6%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cloud-image {
+    width: 500px;
+    height: 35px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.success-text {
+    padding-bottom: 20px;
+    font-size: 50px;
+    line-height: 73px;
+}
+
+.description {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.content-body{
+    min-width: 400px;
+    padding: 5em;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .main-container{
+        padding-top: 1%;
+    }
+    .cloud-image {
+        padding-bottom: 30px;
+    }
+    .success-text {
+        font-size: 50px;
+        line-height: 61px;
+        padding-bottom: 10px;
+    }
+    .description {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
